@@ -21,7 +21,7 @@ func initial() {
 	head.next = nil
 
 	// derefernce the node pointer from its memory addreess
-	// to the currenct value at new memory address (&Node: new referenced address)
+	// to the currenct variable at a new memory address (&Node: new referenced address)
 	var nodeOakland *Node = &Node{
 		data: "Oakland",
 		next: nil,
